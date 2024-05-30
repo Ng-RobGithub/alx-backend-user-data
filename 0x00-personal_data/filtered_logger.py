@@ -7,7 +7,7 @@ Contains the filter_datum function to obfuscate PII in log messages.
 from typing import List
 import logging
 import re
-from mysql.connector import connection
+from mysql.connector import connection  # type: ignore
 from os import environ
 
 PII_FIELDS = ('name', 'email', 'password', 'ssn', 'phone')

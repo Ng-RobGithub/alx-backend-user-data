@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Encrypting pswds with bcrypt """
+""" Password encryption module """
 import bcrypt
 
 

@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-"""
-filtered_logger.py
-Contains the filter_datum function to obfuscate PII in log messages.
+"""A module for filtering logs.
 """
 import os
 import re
